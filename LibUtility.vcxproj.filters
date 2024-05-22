@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Cond.cpp">
+      <Filter>sync</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadRecMutex.cpp">
+      <Filter>sync</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskTimerThread.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBase.cpp">
+      <Filter>thread</Filter>
+    </ClCompile>
+    <ClCompile Include="JPTime.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ITPObject.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRow.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TPTCPClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="TPTCPServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CTcpPacketBase.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CTcpPacketParser.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CTcpPacketTloss.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CCurlClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="CHttpClient.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="Base.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorDefines.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeDefines.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilDefines.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Cond.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessMutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadMutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadRecMutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskTimerThread.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadBase.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="TTime.h">
+      <Filter>thread</Filter>
+    </ClInclude>
+    <ClInclude Include="JPTime.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMutex.h">
+      <Filter>sync</Filter>
+    </ClInclude>
+    <ClInclude Include="ITPListener.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="ITPObject.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TPTypedef.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="DataRow.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TPTCPClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TPTCPServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CTcpPacketBase.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CTcpPacketParser.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CTcpPacketTloss.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="ITcpPacketListener.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpPacketHeader.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CCurlClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CHttpClient.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="CHttpParamMaker.h">
+      <Filter>net</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="utility.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{2d2559eb-a5cf-4035-b39d-920a7aa4dcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sync">
+      <UniqueIdentifier>{e39c016b-d67f-45dc-a89c-bd389ead4205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{8b4121c8-5a0e-4cad-9ee1-81fb72d77119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{e3226870-7e21-4136-9e5f-a0a785253f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{351b1347-ad62-4df4-be7a-c08683f8f543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{d6626f3c-7145-43b2-8a17-5cb22dfa8c7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
